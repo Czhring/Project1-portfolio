@@ -14,7 +14,9 @@
 
 ## Project Description
 
-Use this section to describe your final project and perhaps any links to relevant sites that help convey the concept and\or functionality.
+I will introduce the process of how I chaning my career into the web developer.
+What I have did so far and some project to show how I growing my coding skill
+And you will know more about my background also with the contrct informaion 
 
 ## Wireframes
 
