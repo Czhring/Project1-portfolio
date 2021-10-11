@@ -41,7 +41,6 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 
 - Building up the Html 
 - Grid & Flexbox
-- Api 
 - Animation
 
 #### PostMVP 
