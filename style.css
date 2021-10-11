@@ -2,26 +2,32 @@ body{
     background-color: black;
     color: white;
 }
+#firstContent{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
 article{
+    text-align: justify;
     font-size: 20px;
 }
-#secondContent{
-display: inline-block;
-}
 h1{
-    position: relative;
+    font-size: 50px;
 }
-
 article{
     text-align: right;
     justify-content: right;
 }
+
 p{
     font-size: 25px;
 }
 img{
-    position: relative;
+    display: block;
 }
 a{
     font-size: large;
+}
+
+@media screen (min-width: 1024px){
+    
 }
