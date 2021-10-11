@@ -1,0 +1,27 @@
+body{
+    background-color: black;
+    color: white;
+}
+article{
+    font-size: 20px;
+}
+#secondContent{
+display: inline-block;
+}
+h1{
+    position: relative;
+}
+
+article{
+    text-align: right;
+    justify-content: right;
+}
+p{
+    font-size: 25px;
+}
+img{
+    position: relative;
+}
+a{
+    font-size: large;
+}
