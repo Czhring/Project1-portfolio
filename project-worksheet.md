@@ -59,13 +59,12 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | --- | :---: |  :---: | :---: | 
 | Structure | H | 1hr | hr |
 | Regular Nav | H | 1hr | hr |  
-| Grid and flexbox| M | 2.5hr | hr|
-| Working with API | H | 3hrs|  hr | 
+| Grid and flexbox| M | 2.5hr | hr| 
 | Animations | H | 3hrs|  hr | 
 | Responsive | H | 3hr | hr | hr |
 | Adding Message box | H | 1.5hr|  hr | 
 | Social Media Icons | L | 1hr |  hr |
-| Total | H | 16hrs| hrs |
+| Total | H | 13hrs| hrs |
 
 #### PostMVP
 | Component | Priority | Estimated Time | Actual Time |
@@ -74,8 +73,8 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Bootstrap | H | 4hr | hr |
 | Project Icon| M | 3hr | hr |
 | Button| M | 2hr | hr |
-
-| Total | H | 12hrs| hrs |
+| Working with API | H | 3hrs|  hr |
+| Total | H | 15hrs| hrs |
 
 ## Additional Libraries
  Use this section to list all supporting libraries and thier role in the project. 
