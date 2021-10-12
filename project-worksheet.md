@@ -4,8 +4,8 @@
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|Day 1| Project Description | Incomplete
-|Day 1| Wireframes / Priority Matrix / Timeline | Incomplete
+|Day 1| Project Description | Complete
+|Day 1| Wireframes / Priority Matrix / Timeline | Complete
 |Day 3| Core Application Structure (HTML, CSS, etc.) | Incomplete
 |Day 4| MVP & Bug Fixes | Incomplete
 |Day 5| Final Touches | Incomplete
@@ -58,9 +58,9 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | --- | :---: |  :---: | :---: | 
 | Structure | H | 1hr | hr |
 | Regular Nav | H | 1hr | hr |  
-| Grid and flexbox| M | 2.5hr | hr| 
+| Grid and flexbox| M | 2.5hr |
 | Animations | H | 3hrs|  hr | 
-| Responsive | H | 3hr | hr | hr |
+| Responsive | H | 3hr | hr |
 | Adding Message box | H | 1.5hr|  hr | 
 | Social Media Icons | L | 1hr |  hr |
 | Total | H | 13hrs| hrs |
@@ -76,7 +76,8 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Total | H | 15hrs| hrs |
 
 ## Additional Libraries
- Use this section to list all supporting libraries and thier role in the project. 
+ "https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+ 
 
 ## Code Snippet
 
