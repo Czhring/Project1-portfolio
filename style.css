@@ -8,8 +8,7 @@ body{
     font-size: 70px;
     background-color: grey;   
 }
-.container-fluid{
-}
+
 .intro{
     display: flex;
     justify-content: center;
