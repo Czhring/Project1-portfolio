@@ -2,10 +2,30 @@ body{
     background-color: black;
     color: white;
 }
-
+.welcome{
+    text-align: center;
+    font-size: 70px;
+    background-color: grey;
+    
+}
+.intro{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-right: 50px;
+}
+#firstContent{
+    text-align: center;
+    
+}
+#secondContent{
+    background-color: white;
+    color: black;
+    text-align: center;
+}
 article{
     text-align: justify;
-    font-size: 30px;
+    font-size: 25px;
 }
 h1{
     font-size: 50px;
@@ -21,19 +41,46 @@ img{
 .selfie{
     width: 300px;
 }
-a{
-    font-size: large;
+#secondContent a{
+    padding: 10px;
+    background-color: yellow;
+    font-size: 20px;
+    color: black;
 }
 #footer{
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+}
+.submitButton{
+    background-color: blue;
+    color: white;
+    padding: 20px 30px;
+    cursor: pointer;
+}
+.icon{
     display: flex;
-
-
+    justify-content: space-around;
 }
-textarea{
-    width: 75%;
-    height: auto;
-}
-@media screen and (min-width: 1024px){
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  .fa-google{
+      color:white;
+      background-color: orange;  
+  }
+  .fa-linkedin{
+      color: white;
+      background-color: blue;
+  }
+  .fa-instagram{
+      color: white;
+      background-color:purple;
+  }
+@media screen and (min-width: 768px){
     #firstContent{
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -44,18 +91,84 @@ textarea{
     }
     
 
-    #secondContent div{
+    /* #secondContent div{
         display: grid;
         grid-template-columns: 1fr 1fr;
         justify-content:flex-end;
         align-items: flex-end;
+    } */
+    #secondContent{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        justify-content:flex-end;
+        align-items: flex-end;
+    }
+    .first{
+        grid-column: 1/2;
+        grid-row:1/2;
+    }
+    .second{
+        grid-column: 2/3;
+        grid-row:1/2;
+    }
+    .third{
+        grid-column: 1/2;
+        grid-row :2/3;
+    }
+    .fourth{
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+    .fifth{
+        grid-column: 1/2;
+        grid-row:3/4;
+
     }
     img{
-        width: 100%;
+        width: 50%;
     }
     p{
-        display: contents;
-        font-size:40px;
+        display: inline-block;
     }
 
+}
+@media screen and (min-width: 1024px){
+    #secondContent{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        justify-content:flex-end;
+        align-items: flex-end;
+    }
+    .first{
+        grid-column: 1/2;
+        grid-row:1/2;
+    }
+    .second{
+        grid-column: 2/3;
+        grid-row:1/2;
+    }
+    .third{
+        grid-column: 3/4;
+        grid-row :1/2;
+    }
+    .fourth{
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+    .fifth{
+        grid-column: 2/3;
+        grid-row:2/3;
+
+    }
+    img{
+        width: 50%;
+    }
+    p{
+        display: inline-block;
+    }
+    #secondContent div{
+        display: inline-block;
+    }
 }

@@ -34,50 +34,81 @@
                   </div>
                 </div>
               </nav>
-            <div class = navContainer>
-            </div>
+
+        </div>
+        <div class = welcome>Welcome to my Zone !<br>ZhiRong Chen<br>-Web Developer</div>
         </header>
         <h1>About Me</h1>
         <div id = firstContent>
         
             <img class = selfie src="selfie.jpeg" alt="selfie" >
-            <article>
+            <article class = intro>
                 Hi, I am ZhiRong Chen from China. Graduated from UC Davis as Applied Statistic.
             Now, I am changing my carrer into web develop. Hope I will get seccuss soon.
             </article>
         </div>
         <h1>Project</h1>
         <div id = secondContent>
-            <div class = first>
-                <img src="StartupMatchmaker.png" alt="w1d2hw" >
-                <p>CSS-layout Trying to use the knowledge that I taught today to copy the layout as much as we can<br><a href="https://git.generalassemb.ly/czhring/w1d2hw.git">StartupMatchmaker</a></p>
-                
+
+            <div class="first" style="width: 18rem;">
+                  <img src="StartupMatchmaker.png" class="card-img-top" alt="w1d2hw">
+                  <div class="card-body">
+                    <h5 class="card-title">StartupMatchmaker</h5>
+                    <p class="card-text">CSS-layout Trying to use the knowledge that I taught today to copy the layout as much as we can</p>
+                    <a href="https://git.generalassemb.ly/czhring/w1d2hw.git" class="btn btn-primary">More</a>
+                  </div>
             </div>
-            <div class = second>
-                <img src="Design.png" alt="w1d3hw" >
-                <p>Using flexbox to do the page that we are showing<br><a href="https://git.generalassemb.ly/czhring/W01D03-HW.git">Design</a></p>
+            
+            <div class="second" style="width: 18rem;">
+                  <img src="Design.png" class="card-img-top" alt="w1d3hw">
+                  <div class="card-body">
+                    <h5 class="card-title">Design</h5>
+                    <p class="card-text">Using flexbox to do the page that we are showing</p>
+                    <a href="https://git.generalassemb.ly/czhring/W01D03-HW.git" class="btn btn-primary">More</a>
+                  </div>
             </div>
-            <div class = third>
-                <img src="dses0YB.png" alt="w1d4hw">
-                <p>Follow the instruction to created the webpage with three difference format<br><a href="https://git.generalassemb.ly/czhring/W01D04-HW.git">Responsive Design</a></p>
+            
+            <div class="third" style="width: 18rem;">
+                  <img src="dses0YB.png" class="card-img-top" alt="w1d4hw">
+                  <div class="card-body">
+                    <h5 class="card-title">Responsive Design</h5>
+                    <p class="card-text">Follow the instruction to created the webpage with three difference format</p>
+                    <a href="https://git.generalassemb.ly/czhring/W01D04-HW.git" class="btn btn-primary">More</a>
+                  </div>
             </div>
-            <div class = fourth>
-                <img src="mars.jpeg" alt="w2d3">
-                <p>With the example for the three difference dimension<br><a href="https://git.generalassemb.ly/czhring/mars-responsive-website-exercise.git">Mars</a></p>
+            
+            
+            <div class="fourth" style="width: 18rem;">
+                  <img src="mars.jpeg"class="card-img-top" alt="w2d3hw">
+                  <div class="card-body">
+                    <h5 class="card-title">Mars</h5>
+                    <p class="card-text">With the example for the three difference dimension</p>
+                    <a href="https://git.generalassemb.ly/czhring/mars-responsive-website-exercise.git" class="btn btn-primary">More</a>
+                  </div>
             </div>
-            <div class = fivth>
-                <img src="XBC5rpN.png" alt="Random Card ">
-                <p>Using jQuery, make a div with the text "Add random image". Add a class to make the div square (100 x 100). Give it some color.
-                    The div should have cursor: pointer in its CSS, so that when the user hovers the cursor over the div, the cursor turns into a pointer thing.<br><a href="https://git.generalassemb.ly/czhring/W2D3-hw.git">Random Card</a></p>
+
+            <div class="fifth" style="width: 18rem;">
+                      <img src="XBC5rpN.png"class="card-img-top" alt="w2d3hw">
+                      <div class="card-body">
+                        <h5 class="card-title">Random Card</h5>
+                        <p class="card-text">With jQuery to make a random image card game</p>
+                        <a href="https://git.generalassemb.ly/czhring/W2D3-hw.git" class="btn btn-primary">More</a>
+                      </div>
             </div>
         </div>
         <div id = footer>
+          <div class = icon>
             <a href="#" class="fa fa-instagram"></a>
             <a href="#" class="fa fa-linkedin"></a>
             <a href="#" class="fa fa-google"></a>
-            
-            <textarea>Message Me</textarea>
-            <button class = submitButton> submit</button>
+          </div>
+          <form>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label">Contact Me</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
         </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
