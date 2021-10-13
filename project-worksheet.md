@@ -6,7 +6,7 @@
 |---|---| ---|
 |Day 1| Project Description | Complete
 |Day 1| Wireframes / Priority Matrix / Timeline | Complete
-|Day 3| Core Application Structure (HTML, CSS, etc.) | Incomplete
+|Day 3| Core Application Structure (HTML, CSS, etc.) | Complete
 |Day 4| MVP & Bug Fixes | Incomplete
 |Day 5| Final Touches | Incomplete
 |Day 6| Present | Incomplete
@@ -72,7 +72,6 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Bootstrap | H | 4hr | hr |
 | Project Icon| M | 3hr | hr |
 | Button| M | 2hr | hr |
-| Working with API | H | 3hrs|  hr |
 | Total | H | 15hrs| hrs |
 
 ## Additional Libraries
