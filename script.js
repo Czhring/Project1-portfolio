@@ -7,34 +7,18 @@
 
 
 
-$('.first').mouseenter(function(){
+$('.first').hover(function(){
     $(this).toggleClass('active')
 })
-$('.second').mouseenter(function(){
+$('.second').hover(function(){
     $(this).toggleClass('active')
 })
-$('.third').mouseenter(function(){
+$('.third').hover(function(){
     $(this).toggleClass('active')
 })
-$('.fourth').mouseenter(function(){
+$('.fourth').hover(function(){
     $(this).toggleClass('active')
 })
-$('.fifth').mouseenter(function(){
+$('.fifth').hover(function(){
     $(this).toggleClass('active')
-})
-
-$('.first').mouseleave(function(){
-    $(this).toggleClass('active2')
-})
-$('.second').mouseleave(function(){
-    $(this).toggleClass('active2')
-})
-$('.third').mouseleave(function(){
-    $(this).toggleClass('active2')
-})
-$('.fourth').mouseleave(function(){
-    $(this).toggleClass('active2')
-})
-$('.fifth').mouseleave(function(){
-    $(this).toggleClass('active2')
 })

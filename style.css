@@ -2,6 +2,7 @@ body{
     background-color: black;
     color: white;
 }
+。
 .container-fluid{
     position:fixed;
     top:0;
@@ -38,7 +39,7 @@ span{
     margin-right: auto;
 }
 #secondContent{
-    background-color:darkgray;
+    background-color:white;
     color: black;
     text-align: center;
 }
