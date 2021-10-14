@@ -89,11 +89,7 @@ img{
 
 }
 
-.submitButton{
-    background-color: blue;
-    color: white;
-    border-radius: 5px;
-}
+
 .icon{
     display: flex;
     justify-content: space-evenly;
@@ -104,6 +100,9 @@ img{
 }
 .contact label{
     font-size: 20px;
+}
+button{
+    border: 1px solid white;
 }
 
 .fa {
