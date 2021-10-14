@@ -7,8 +7,8 @@
 |Day 1| Project Description | Complete
 |Day 1| Wireframes / Priority Matrix / Timeline | Complete
 |Day 3| Core Application Structure (HTML, CSS, etc.) | Complete
-|Day 4| MVP & Bug Fixes | Incomplete
-|Day 5| Final Touches | Incomplete
+|Day 4| MVP & Bug Fixes | Complete
+|Day 5| Final Touches | Complete
 |Day 6| Present | Incomplete
 
 
@@ -56,23 +56,23 @@ Time frames are also key in the development cycle.  You have limited time to cod
 #### MVP
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
-| Structure | H | 1hr | hr |
-| Regular Nav | H | 1hr | hr |  
-| Grid and flexbox| M | 2.5hr |
-| Animations | H | 3hrs|  hr | 
-| Responsive | H | 3hr | hr |
-| Adding Message box | H | 1.5hr|  hr | 
-| Social Media Icons | L | 1hr |  hr |
-| Total | H | 13hrs| hrs |
+| Structure | H | 1hr | 4hr |
+| Regular Nav | H | 1hr | 1hr |  
+| Grid and flexbox| M | 3hrs| 5hr |
+| Animations | H | 3hrs|  2.5hr | 
+| Responsive | H | 3hr | 3 hr |
+| Adding Message box | H | 1.5hr| 2 hr | 
+| Social Media Icons | L | 1hr | 2 hr |
+| Total | H | 13.5hrs| 19.5hrs |
 
 #### PostMVP
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
-| Project Hover | L | 3hr | -hr | hr |
-| Bootstrap | H | 4hr | hr |
-| Project Icon| M | 3hr | hr |
-| Button| M | 2hr | hr |
-| Total | H | 15hrs| hrs |
+| Project Hover | L | 3hr | 3hr |
+| Bootstrap | H | 4hr | 2 hr |
+| Project Icon| M | 3hr | 3 hr |
+| Button| M | 2hr | 2hr |
+| Total | H | 12hrs| 10 hrs |
 
 ## Additional Libraries
  "https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
